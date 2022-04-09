@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midia em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>tente abrir este site em vários dispositivos diferentes ou simplesmente aumenta e diminua o tamnho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagens/foto-m.png" type="image/png"> 
+        <img src="imagens/foto-g.png"   alt="Imagem flexivel">
+    </picture>
+
+     <h1>Reprodução de áudio</h1>
+     <p>Vamos reproduzir áudio em HTML5</p>
+     <audio preload="metadata" autoplay controls loop>
+        <source src="audio/away-patrick-patrikios.mp3" type="audio/mpeg">
+        <source src="audio/away-patrick-patrikios.mp3" type="audio/wav">
+        <source src="audio/away-patrick-patrikios.mp3" type="audio/ogg"> 
+        <p>Não é possível reproduzir o áudio. <a href="audio/away-patrick-patrikios.mp3">Clique aqui para descarregar o arquivo mp3</a>.</p>
+    </audio>
+    
+</body>
+</html>
