@@ -23,11 +23,23 @@
     float: left;
     }
 
+  
+    .ul_opcao_x_hide{
+        display: none;
+    }
+
+
+    .div_2 ul li:hover > ul {
+        display: block;
+        color: brown;
+    }
+
+    
     .div_3{
     display: block;
     border: 1px dotted black;
     width: 1220px;
-    background-color: rgb(127, 255, 212);
+    background-color: rgb(148, 255, 127);
     float: right;
     }
 
@@ -48,29 +60,32 @@
     </div>
     <div class="div_2">
         <h1>DIV2</h1>
-        <ul>
-            <li><a href="#"></a>Opcão_1</li>
-                <ul>
-                    <li><a href="#"></a>Opcão_1a</li>
-                    <li><a href="#"></a>Opcão_1b</li>
-                    <li><a href="#"></a>Opcão_1c</li>
+        <ul class="ul_opcao">
+            <li id="li_opcao_1"><a href="#">Opcão_1</a>
+                <ul class="ul_opcao_x_hide" id="ul_opcao_1x">
+                    <li><a href="#">Opcão_1a</a></li>
+                    <li><a href="#">Opcão_1b</a></li>
+                    <li><a href="#">Opcão_1c></a</li>
                 </ul>
+            </li>
         </ul>
-        <ul>
-            <li><a href="#"></a>Opcão_2</li>
-                <ul>
-                    <li><a href="#"></a>Opcão_2a</li>
-                    <li><a href="#"></a>Opcão_2b</li>
-                    <li><a href="#"></a>Opcão_2c</li>
+        <ul class="ul_opcao">
+            <li id="li_opcao_2"><a href="#">Opcão_2</a>
+                <ul class="ul_opcao_x_hide" id="ul_opcao2x">
+                    <li><a href="#">Opcão_2a</a></li>
+                    <li><a href="#">Opcão_2b</a></li>
+                    <li><a href="#">Opcão_2c</a></li>
                 </ul>
+            </li>
         </ul>
-        <ul>
-            <li><a href="#"></a>Opcão_3</li>
-                <ul>
-                    <li><a href="#"></a>Opcão_3a</li>
-                    <li><a href="#"></a>Opcão_3b</li>
-                    <li><a href="#"></a>Opcão_3c</li>
+        <ul class="ul_opcao">
+            <li id="li_opcao_3"><a href="#">Opcão_3</a>
+                <ul class="ul_opcao_x_hide" id="ul_opcao_3">
+                    <li><a href="#">Opcão_3a</a></li>
+                    <li><a href="#">Opcão_3b</a></li>
+                    <li><a href="#">Opcão_3c</a></li>
                 </ul>
+            </li>
         </ul>
     </div>
     <div class="div_3">
